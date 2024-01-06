@@ -29,6 +29,7 @@ a {
 
 /* -header- */
 header {
+  margin: auto;
   background-image: url("./images/hardy.png"), url("./images/header_bg.png"),
     url("./images/developer.png");
   background-repeat: no-repeat;
@@ -173,4 +174,66 @@ line-height: 30px;
 
 .field {
   margin: 0px;
+}
+
+/* --whatIDo-- */
+
+.whatIDo {
+  margin: auto;
+  width: 1140px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin-bottom: 130px;
+  margin-top: 130px;
+
+}
+
+.whatIDo h2 {
+font-size: 35px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin: 0px;
+}
+
+.whatIDo>p {
+  margin: 0px;
+  width: 910px;
+  text-align: center;
+  font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+}
+
+.whatIDo ul {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 20px;
+}
+
+.whatIDo ul li {
+  width: 270px;
+  height: auto;
+  list-style-type: none;
+  display: flex;
+  flex-flow:column wrap;
+  gap: 20px;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  padding: 30px;
+
+}
+
+.whatIDo li p {
+  font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+}
+
+.whatIDo img {
+  width: 44px;
 }
